@@ -13,6 +13,7 @@ The following Python packages are required to run the script:
 - datetime
 - dhooks
 - bs4
+- lxml
 - threading
 
 # Usage
