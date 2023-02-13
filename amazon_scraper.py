@@ -36,8 +36,7 @@ def scraping(url, session, delay, thread_num):
 
 
 def send_webhook(url, title, whole_price, image, thread_num):
-    hook = Webhook(
-        'https://discord.com/api/webhooks/801844941781073940/8sYwB54PmyK7dp6YAg-YHvz3V1pG887gyKHu35wHGbK29MI4gx7g4tP1AWMgGnQV4WsI')
+    hook = Webhook(YOUR_WEBHOOK)
 
     now = str(datetime.utcnow().strftime('%d-%m-%Y'))
     embed = Embed(
