@@ -19,7 +19,7 @@ The following Python packages are required to run the script:
 # Usage
 
 - Create a CSV file named 'scrape.csv' with the following format: url, price, delay
-- Run the 'start' function to start the scraper.
+- Run the 'start()' function to start the scraper.
 
 # Disclaimer 
 
